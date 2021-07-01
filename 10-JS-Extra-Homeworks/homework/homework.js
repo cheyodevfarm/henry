@@ -108,28 +108,32 @@ function deleteAbc(cadena) {
 function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
-  for (let i = 0; i < arr.length; i++) {
-    if (i > 0 && i < arr.length - 1) {
-      // intercambiar con la posicion siguiente y lo que llegue si es necesario retroceder una posicion
-      if (arr[i].length > arr[i + 1].length) {
-        let datoQavanza = arr[i];
-        arr[i] = arr[i + 1];
-        arr[i + 1] = datoQavanza;
-        if (arr[i].length < arr[i - 1].length) {
-          let datoQretrocede = arr[i];
-          arr[i] = arr[i - 1];
-          arr[i - 1] = datoQretrocede;
-        }
-      }
-    } else if (i === 0) {
-      // la palabra avanza una posicion si es mayor a la siguiente
-      if (arr[i].length > arr[i + 1].length) {
-        let datoQsube = arr[i];
-        arr[i] = arr[i + 1];
-        arr[i + 1] = datoQsube;
-      }
-    }
-  }
+
+  // for (let i = 0; i < arr.length; i++) {
+  //   if (i > 0 && i < arr.length - 1) {
+  //     // intercambiar con la posicion siguiente y lo que llegue si es necesario retroceder una posicion
+  //     if (arr[i].length > arr[i + 1].length) {
+  //       let datoQavanza = arr[i];
+  //       arr[i] = arr[i + 1];
+  //       arr[i + 1] = datoQavanza;
+  //       if (arr[i].length < arr[i - 1].length) {
+  //         let datoQretrocede = arr[i];
+  //         arr[i] = arr[i - 1];
+  //         arr[i - 1] = datoQretrocede;
+  //       }
+  //     }
+  //   } else if (i === 0) {
+  //     // la palabra avanza una posicion si es mayor a la siguiente
+  //     if (arr[i].length > arr[i + 1].length) {
+  //       let datoQsube = arr[i];
+  //       arr[i] = arr[i + 1];
+  //       arr[i + 1] = datoQsube;
+  //     }
+  //   }
+  // }
+  arr.sort(function (a, b) {
+    return a.length - b.length;
+  });
   return arr;
 }
 
