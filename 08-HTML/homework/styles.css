@@ -1,0 +1,47 @@
+body {
+  background: rgba(3, 3, 3, 0.5);
+  background-blend-mode: overlay;
+  background-image: url(imgfondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+h1 {
+  color: rgb(247, 90, 28);
+  text-transform: uppercase;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.divClass {
+  /* border: 1px solid yellow; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.divClass > a {
+  color: rgb(247, 90, 28);
+}
+#thirdDiv {
+  background-color: rgba(65, 63, 62, 0.5);
+  margin-top: 15px;
+  width: 40%;
+  padding: 20px;
+  border: 1px solid rgb(83, 83, 83);
+  border-radius: 10px;
+}
+#spanId {
+  font-size: 18px;
+}

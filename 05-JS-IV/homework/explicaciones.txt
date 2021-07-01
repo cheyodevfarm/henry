@@ -1,0 +1,16 @@
+* Objetos: Son similares a los arrays, contienen colecciones de datos, pero los objetos continen mucha informacion acera de una sola cosa.
+
+* Propiedades: los objetos manejan un concepto llamado clave(propiedad) y valor, donde la clave o propiedad es la manera de acceder al valor de un objeto.
+
+* Métodos: Asi como podemos establecer como valor de un objeto a un string, booleano, entero, asi tambien podemos establecer a una funcion como valor de un objeto.
+           a estas funciones se las denomina metodos.
+
+* Bucle `for…in` : Como un objeto es una coleccion de datos, necesitaremos iterarlo o recorrerlo para poder acceder a sus valores, pero un bucle estandar
+                   no servira, ya que un objeto no contiene indices numericos. Para esto "for...in" permite recorrer el bojeto y acceder a cada clave del objeto.                    
+
+* Notación de puntos vs notación de corchetes: 
+                                            -  con la notacion de puntos podemos llamar al nombre del objeto seguido de un punto y el nombre de la clave(nombreObjeto.clave)
+                                               de esta manera podemos, tanto acceder al valor de un objeto, como establecer un nuevo valor y/o una nueva clave
+
+                                            -  la notacion de corchetes tiene la misma finalidad, pero para ello su sintaxis es diferente, se llama al objeto seguido de corchetes,
+                                               dentro de estos va el nombre de la clave en "string".

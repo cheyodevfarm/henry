@@ -1,0 +1,15 @@
+* Variables: Una variable es donde podemos guardar valores o datos, que despues podemos utilizar.
+
+* Strings: Son tipos de datos, que se caraceterizan por estar conformados por bloques de texto, estos se definen entre comillas dobles o simples
+           como por ejemplo: 'henry' o "henry".
+
+* Funciones: Una función es un bloque de código, que contiene un conjunto de instrucciones, que realizan una determinada tarea o calculan un un valor.
+             para ello, las funciones pueden recibir argumentos/parametros(o no), que se utilizan para realizar el cálculo correspondiente.             
+             las funciones, para poder devolver el resultado utilizan una declaración llamada return, la cual, es una instrucción que retorna el resultado. 
+             por ejemplo una funcion seria: function sumar2Numeros(a,b){ var resultado = a + b; return resultado;}             
+
+
+* Declaraciones If: Son operadores de control o que permiten realizar una condición antes de realizar o ejecutar una porción de código, es decir, verifica
+                    si la condición es true(la condición se cumple) entonces el código hara algo, o false(la condición no se cumple) el código hara otra cosa.
+
+* Valores Booleanos: Son aquellos datos que solo pueden tomar dos valores, true(representa al 1) o false(representa al 0) y son utilizados más que todo en las condicionales.

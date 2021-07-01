@@ -1,0 +1,7 @@
+* for: es un bucle que permite hacer un numero finito de recorridos, con el fin de repetir instrucciones para calcular un valor o realizar tareas.
+               
+* &&: Operador lógico 'AND', que combinan 2 o mas expresiones y da como resultado 'true', solo si ambas expresiones o condiciones se cumplen
+
+* ||: Operador logico 'OR', cuyo resultado es 'true' si alguna de las expresiones o condiciones se cumplen.
+
+* !: Operador lógico "NOT", por ejemplo: nos sirve en una expresión o condición, para preguntar si el resultado de la misma es distinto o "no es igual a".

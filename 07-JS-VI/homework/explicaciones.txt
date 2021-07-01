@@ -1,0 +1,2 @@
+Funciones Callback: es basicamente, cuando se pasa una funcion a otra funcion como argumento, para luego invocarla o llamar a esa funcion pasada 
+                    para completar una rutina o accion.

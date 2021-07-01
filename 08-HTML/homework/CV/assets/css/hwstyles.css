@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fb; /*eaebef*/
+  overflow: hidden;
+}
+.contenedor {
+  display: flex;
+}
+
+/* sidebar perfil */
+.sidebar {
+  display: flex;
+  max-width: 35%;
+  /* justify-content: center; */
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+.sidebar_navbar {
+  background-color: #6e15c9;
+  color: white;
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sidebar_navbar > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.32rem;
+  font-weight: 300;
+}
+.sidebar_navbar > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 0.312rem;
+}
+.contact_icon {
+  width: 1.562rem;
+  height: 1.562rem;
+}
+.perfil {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* gap: 1.25rem; */
+  padding: 0px 3.125rem 3.125rem 3.125rem;
+}
+.perfil > h1 {
+  font-size: 2.5rem;
+}
+.llaves {
+  color: #6e15c9;
+}
+.nombre {
+  color: #4c1685;
+}
+.perfil > h1 {
+  text-align: center;
+}
+.perfil > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 0.625rem;
+}
+.perfil > img {
+  width: 15.625rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid #f8f9fb;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+.perfil_about > p {
+  text-align: justify;
+}
+
+/* main o contenido principal */
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.info_navbar {
+  height: 3.5rem;
+  background-color: #4c1685;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1.25rem;
+}
+.info_navbar > ul {
+  list-style: none;
+
+  /* border: 1px solid yellow; */
+}
+.info_navbar > ul > li > button {
+  background-color: #6e15c9;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.info_navbar > ul > li > button:active {
+  transform: scale(0.9);
+}
+.info_contenido {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  overflow-y: scroll;
+  max-height: calc(100vh - 3.5rem);
+  /* border: 1px solid red; */
+  padding: 2.5rem;
+  text-align: justify;
+}
+.lista_desordenada {
+  /* list-style: none; */
+  padding-left: 1rem;
+}
+
+.iconos {
+  width: 28px;
+  height: 28px;
+}

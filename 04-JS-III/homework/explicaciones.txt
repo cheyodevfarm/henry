@@ -1,0 +1,1 @@
+* arrays : son objetos similares a una lista. Su estructura nos facilita metodos para realizar operaciones mediante recorridos.
